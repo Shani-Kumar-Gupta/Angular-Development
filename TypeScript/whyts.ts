@@ -8,6 +8,7 @@
 // console.log('Result: ', result);
 
 function add(a: number, b: number) {
+  // Types Annotation
   return a + b;
 }
 
