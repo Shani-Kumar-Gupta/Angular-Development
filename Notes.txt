@@ -1,0 +1,7 @@
+1. How to install Angular CLI?
+  /*
+    - Need to install NodeJS before to start installing Angular CLI
+    - After NodeJS installation, it will provide one tool which is npm (Node Package Manager)
+    - After that, you have to ender below command in CLI-
+        npm install -g @angular/cli@latst
+  */

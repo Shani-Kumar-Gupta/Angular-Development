@@ -1,0 +1,4 @@
+1. What is Angular?
+2. Angular CLI?
+3. How to setup basic anular project?
+4. How to create a new angular prohject without strict mode?
