@@ -4,4 +4,15 @@
     - After NodeJS installation, it will provide one tool which is npm (Node Package Manager)
     - After that, you have to ender below command in CLI-
         npm install -g @angular/cli@latst
+    - After installation, check whether Angular CLI is installed or not then use below command-
+        ng --version
+  */
+
+2. Command to create and run new angular application?
+  /*
+    - Command to create an Angular application-
+        ng new <Project_Name>
+        ng new <Project_Name> --no-strict (Without Strict Mode)
+    - Command to run an Angular application-
+        ng serve
   */
