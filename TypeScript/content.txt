@@ -1,4 +1,0 @@
-1. What is TypeScript and Why would we use it?
-    TypeScript: TypeScript is a "superset" to JavaScript. It's extends Javascript.
-    It core is JavaScript. But Typescript adds some additional features on top of JS.
-    TYpeScript adds static typing to JS(Dynamic Typed).
