@@ -1,0 +1,14 @@
+1. The Basics
+2. Components and Databinding
+3. Directives
+4. Services and Dependency Injection
+5. Routing
+6. Observables
+7. Forms
+8. Pipes
+9. http
+10. Authentication
+11. Optimization and NgModule
+12. Deployment
+13. Animation and Testing
+14. Real Project
