@@ -1,0 +1,15 @@
+1) Angular - JavaScript Framework, Reactive Single Page Application
+2) Create Angular Application Using CLI - ng new [Application name]
+3) The Basics
+4) Component and Data Binding
+5) Directives
+6) Service and Dependency Injections
+7) Routing
+8) Observables
+9) Forms
+10) Pipes
+11) Http
+12) Authentication
+13) Optimization
+14) Deployment
+15) Animation and Testing
