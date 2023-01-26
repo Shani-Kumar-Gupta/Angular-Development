@@ -1,3 +1,6 @@
 1. Type Annotation - Variables, Function Parameters, Object Property
 2. Type Inference
 3. Working With Union Types
+4. Generics
+5. Classes & TypeScript
+6. Interfaces
