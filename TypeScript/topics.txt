@@ -1,0 +1,3 @@
+1. Type Annotation - Variables, Function Parameters, Object Property
+2. Type Inference
+3. Working With Union Types
