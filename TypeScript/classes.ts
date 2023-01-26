@@ -12,7 +12,12 @@ class Student {
   age: number;
   courses: string[];
 
-  constructor(firstName: string, lastName: string, age: number, courses: string[]) {
+  constructor(
+    firstName: string,
+    lastName: string,
+    age: number,
+    courses: string[]
+  ) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.age = age;
@@ -24,12 +29,27 @@ class Student {
   }
 }
 
-const newStudent = new Student("John", "Smith", 30, ["coding", "programming"]);
-const newStudent2 = new Student("S", "G", 23, ["coding", "programming"]);
-newStudent2.firstName = "Shani";
-newStudent2.lastName = "Gupta";
+const newStudent = new Student('John', 'Smith', 30, ['coding', 'programming']);
+const newStudent2 = new Student('S', 'G', 23, ['coding', 'programming']);
+newStudent2.firstName = 'Shani';
+newStudent2.lastName = 'Gupta';
 newStudent2.age = 24;
-newStudent2.courses = ["coding", "programming"];
+newStudent2.courses = ['coding', 'programming'];
 newStudent2.enrol('React');
 
 console.log(newStudent2);
+
+class PersonData {
+  constructor(
+    public firstName: string,
+    public lastName: string,
+    public age: number
+  ) {}
+
+  getName() {
+    return this.firstName + ' ' + this.lastName;
+  }
+}
+
+const p1 = new PersonData('John', 'Smith', 30);
+p1.getName();
