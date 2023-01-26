@@ -27,3 +27,11 @@ let isDeveloper: boolean;
 isDeveloper = true;
 
 console.log(age, myName, isDeveloper);
+
+// Function Parameters Type Annotation
+function getMyName(name: string): string {
+  return "My Name is " + name;
+}
+
+const fullName = getMyName("Shani Kumar Gupta");
+console.log(fullName);

@@ -22,3 +22,9 @@ myName = "Shani Kumar Gupta";
 var isDeveloper;
 isDeveloper = true;
 console.log(age, myName, isDeveloper);
+// Function Parameters Type Annotation
+function getMyName(name) {
+    return "My Name is " + name;
+}
+var fullName = getMyName("Shani Kumar Gupta");
+console.log(fullName);
