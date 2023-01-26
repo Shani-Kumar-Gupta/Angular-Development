@@ -1,5 +1,5 @@
-/* 
-Basic Types and Prmitives mostly used in TS 
+/*
+Basic Types and Prmitives mostly used in TS
 Prmitives in JS-
   number
   string
@@ -13,17 +13,12 @@ Primitives in TS - number, string, boolean
 Complex Types - arrays, objects
 Function types and parameters
 */
-
 /* Type Annotation */
-
 // Variable Type Annotation
-let age: number = 21;
+var age = 21;
 age = 24;
-
-let myName: string;
+var myName;
 myName = "Shani Kumar Gupta";
-
-let isDeveloper: boolean;
+var isDeveloper;
 isDeveloper = true;
-
 console.log(age, myName, isDeveloper);
