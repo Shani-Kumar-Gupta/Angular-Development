@@ -36,3 +36,8 @@ employee = {
     rollNumber: 1715,
     isPass: true
 };
+// More Complex Types and Type Annotation
+var hobbies;
+hobbies = ['Coding', 'Cricket'];
+var nums;
+nums = [23, 21, 45];
