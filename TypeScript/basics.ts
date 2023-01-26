@@ -35,3 +35,19 @@ function getMyName(name: string): string {
 
 const fullName = getMyName("Shani Kumar Gupta");
 console.log(fullName);
+
+// Object Property Type Annotation
+
+let employee : {
+  myName: string,
+  college: string,
+  rollNumber: number,
+  isPass: boolean
+}
+
+employee = {
+  myName: "Shani Kumar Gupta",
+  college: "GLA University, Mathura",
+  rollNumber: 1715,
+  isPass: true
+}

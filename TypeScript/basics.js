@@ -28,3 +28,11 @@ function getMyName(name) {
 }
 var fullName = getMyName("Shani Kumar Gupta");
 console.log(fullName);
+// Object Property Type Annotation
+var employee;
+employee = {
+    myName: "Shani Kumar Gupta",
+    college: "GLA University, Mathura",
+    rollNumber: 1715,
+    isPass: true
+};
