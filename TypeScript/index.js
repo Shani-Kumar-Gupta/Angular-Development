@@ -4,10 +4,9 @@
   3. Dynamically typing vs. Statically typing
   4. Looslly typed language vs Strongly typed language
 */
-
-function add(a: number, b: number = 0): number {
-  return a + b;
+function add(a, b) {
+    if (b === void 0) { b = 0; }
+    return a + b;
 }
-
-const result = add(1, 4);
+var result = add(1, '2');
 console.log(result);
