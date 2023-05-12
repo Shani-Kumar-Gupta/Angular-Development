@@ -17,8 +17,26 @@ export class AppComponent {
 
   postArrayObservable$ = from(this.postArray); // Converted into Observable
 
+  /* Example 2 - Promise */
+  promise = new Promise((resolve, reject) => {
+    console.log('Entered into Promise');
+    setTimeout(() => {
+      resolve('Promise resolved');
+    }, 3000);
+  });
+
+  promiseObservables$ = from(this.promise); // Converted into Observable
+
   constructor() {
+    /* Example 1 */
     this.postArrayObservable$.subscribe({
+      next: (data) => console.log(data),
+      error: (err) => console.log(err),
+      complete: () => console.log('completed')
+    });
+
+    /* Example 2 */
+    this.promiseObservables$.subscribe({
       next: (data) => console.log(data),
       error: (err) => console.log(err),
       complete: () => console.log('completed')
