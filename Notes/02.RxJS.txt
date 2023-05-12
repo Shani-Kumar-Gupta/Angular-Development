@@ -1,0 +1,9 @@
+1. Reactive Extension API
+2. RxJS - Provide single API (Observables - To deal with stream of data)
+3. Stream of data can be?
+4. Observables, Observers, Subject (Which emmits the value - Subject maintains the list of observers to get notified) 
+  eg. Subject(Youtube) -> Observer(Subscriber) -> Subject emmits the data to all the observers -> Observer notified -> Then executes their own logic
+  Single subject broadcast the value to multiple observers.
+5. RxJS Observer Pattern - Softare development pattern with Observables
+6. In RxJS -> Subject called as Observables
+7. Observables (Subject) -> Has subscribe() method -> Observer used this menthod to registered
