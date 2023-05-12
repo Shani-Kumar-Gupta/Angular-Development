@@ -9,6 +9,9 @@
 7. Observables (Subject) -> Has subscribe() method -> Observer used this menthod to registered
 8. Observer having object with next(), error() and complete() method
 
+9. How to create custom observables from scratch?
+10. Different ways of creating observer
+
 
 /* OPERATORS */
 1. from - used to transform the iterable data to an observables
