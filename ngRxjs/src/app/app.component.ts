@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
-import { from } from 'rxjs';
+import { AfterViewInit, Component } from '@angular/core';
+import { from, fromEvent } from 'rxjs';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements AfterViewInit {
   title = 'ngRxjs';
   /* Example 1 */
   postArray = [
@@ -37,6 +37,14 @@ export class AppComponent {
 
     /* Example 2 */
     this.promiseObservables$.subscribe({
+      next: (data) => console.log(data),
+      error: (err) => console.log(err),
+      complete: () => console.log('completed')
+    });
+  }
+
+  ngAfterViewInit(){
+    fromEvent(document.getElementById('click-here')!, 'click').subscribe({
       next: (data) => console.log(data),
       error: (err) => console.log(err),
       complete: () => console.log('completed')

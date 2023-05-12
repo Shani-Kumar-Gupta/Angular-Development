@@ -12,3 +12,4 @@
 
 /* OPERATORS */
 1. from - used to transform the iterable data to an observables
+2. fromEvent - used to convert event into an observables
