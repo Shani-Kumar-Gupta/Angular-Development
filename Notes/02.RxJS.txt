@@ -7,3 +7,8 @@
 5. RxJS Observer Pattern - Softare development pattern with Observables
 6. In RxJS -> Subject called as Observables
 7. Observables (Subject) -> Has subscribe() method -> Observer used this menthod to registered
+8. Observer having object with next(), error() and complete() method
+
+
+/* OPERATORS */
+1. from - used to transform the iterable data to an observables
