@@ -33,11 +33,13 @@ export class MemoryLeakageComponent implements OnInit{
     this.timerConsoleSubscription = newObservables.subscribe(data => {
       console.log(data);
     });
+
+    this.timerBrowserSubscription.add(this.timerConsoleSubscription);
   }
 
   clearSubscription() {
     this.timerBrowserSubscription.unsubscribe();
-    this.timerConsoleSubscription.unsubscribe();
+    // this.timerConsoleSubscription.unsubscribe();
   }
 
 }
