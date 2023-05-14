@@ -1,0 +1,5 @@
+1. Operators - Operators are functions that takes some configurable data and returns the function.
+    In RxJS, operators takes an observables and return new observables
+2. Types of Operators-
+  - Pipeable Operators
+  - Creation Operators
