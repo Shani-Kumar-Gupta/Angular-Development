@@ -12,6 +12,7 @@
 9. How to create custom observables from scratch?
 10. Different ways of creating observer
 11. How to cancel the subscribe() method? - unscribe() method
+12. Avoid Memory Leakage issue
 
 
 /* OPERATORS */
