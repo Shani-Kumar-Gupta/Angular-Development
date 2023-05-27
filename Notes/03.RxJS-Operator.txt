@@ -2,4 +2,5 @@
     In RxJS, operators takes an observables and return new observables
 2. Types of Operators-
   - Pipeable Operators
+    It's a function that takes observables as an input and return new observables
   - Creation Operators
