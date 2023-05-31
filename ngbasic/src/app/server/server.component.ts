@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-server',
   templateUrl: './server.component.html',
   styleUrls: ['./server.component.css'],
-  providers: []
+  providers: [],
 })
 export class ServerComponent {
   constructor() {}
