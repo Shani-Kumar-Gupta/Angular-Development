@@ -2,9 +2,17 @@
 2. Components and Databinding
 3. Directives
 4. Services and Dependency Injection
+  - All About services in Angular
+  - @Injectable
+  - Providers
+  - Tree Shaking and Tree Shakeable Services
+  - Making your services singleton and it's advantages
+  - Advantages of using providedIn method of services injection
 5. Routing
 6. Observables
 7. Forms
+  - Template Driven Forms, validation and display error messages
+  - Reactive Forms
 8. Pipes
 9. http
 10. Authentication
