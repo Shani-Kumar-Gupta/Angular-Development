@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  width: 30%;
+  padding: 20px;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* input.ng-invalid {
+  border: 2px solid red;
+} */
+
+input.ng-invalid.ng-touched {
+  border: 2px solid red;
+}
+
+p {
+  color: red;
+}
