@@ -8,3 +8,7 @@
   - A Framework can have pre-defined classes and functions that can be re-used to add several functionalities, which otherwise we would have to write from scratch by our own.
   - A Framework is ca collection of pre-defined classes and functions which provides APIs for performing different operations when used in an application.
 
+6. Single Page Applications (SPA)-
+  - A Single Page Application is a web application, which has only one HTML page. When we navigate around, only the content of that HTML page changes. The page itself never changes.
+  
+
