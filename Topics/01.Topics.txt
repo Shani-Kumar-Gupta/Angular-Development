@@ -1,4 +1,10 @@
 1. What is Angular?
+  - Angular is JavaScript Framework maintained by Google which allows us to create Single Page Applications (SPA).
 2. Angular CLI and check whether angular installed or not?
 3. How to setup basic anular project?
 4. How to create a new angular prohject without strict mode?
+5. What is Framework?
+  - A Framework is like a platform for developing software Application.
+  - A Framework can have pre-defined classes and functions that can be re-used to add several functionalities, which otherwise we would have to write from scratch by our own.
+  - A Framework is ca collection of pre-defined classes and functions which provides APIs for performing different operations when used in an application.
+
