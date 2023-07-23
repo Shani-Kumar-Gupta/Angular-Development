@@ -11,4 +11,5 @@
 6. Single Page Applications (SPA)-
   - A Single Page Application is a web application, which has only one HTML page. When we navigate around, only the content of that HTML page changes. The page itself never changes.
   
+7. Bootstrapping Angular Application: It's the process of initializing or loading the Angular application.
 
