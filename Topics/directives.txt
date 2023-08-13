@@ -1,0 +1,9 @@
+Angular Directives:
+  In Angular, Directives are defined as classes that can add new behavior or modify existing behavior on an elements in the template.
+  The main purpose of directives in Angular is to maneuver the DOM, by adding new elements to DOM, removing existing elements from the DOM
+  and changing the appearance of the DOM elements.
+
+Types of Directives-
+  - Component directives
+  - Structural directives
+  - Attribute directives
