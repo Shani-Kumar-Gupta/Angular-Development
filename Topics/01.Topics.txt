@@ -1,6 +1,12 @@
 1. What is Angular?
   - Angular is JavaScript Framework maintained by Google which allows us to create Single Page Applications (SPA).
 2. Angular CLI and check whether angular installed or not?
+  - npm install -g @angular/cli@latest
+  - ng --help
+  - ng version
+  - ng new --help
+  - ng new applicationName
+  - ng serve applicationName
 3. How to setup basic anular project?
 4. How to create a new angular prohject without strict mode?
 5. What is Framework?
