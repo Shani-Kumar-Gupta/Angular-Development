@@ -4,3 +4,13 @@
 4. Generics
 5. Classes & TypeScript
 6. Interfaces
+
+- TypeScript is a free & open sourse programming language developed and maintained by Microsoft.
+- TypeScript is a superset of JavaScript. It menas any valid JavaScript will be valid in TypeScript as well.
+- At the end TypeScript is complied in JavaScript because Web Browser only knows JS.
+
+Advantages-
+- TypeScript is a superset of JavaScript.
+- TypeScript has some additional feature, which does not there in JavaScript.
+- TypeScript is strongly typed. JavaScript is dynamically typed.
+- Error can be indentified at compile time in TypeScript while in JavaScript, error indentified at runtime.
