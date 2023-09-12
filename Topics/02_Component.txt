@@ -1,0 +1,7 @@
+/* ANGULAR COMPONENT */
+
+- A Component is a key feature of an Angular Application.
+- Angular is a component based JavaScript Frameword for building client-side applications.
+
+Component:
+- Component builds independent to each other.
