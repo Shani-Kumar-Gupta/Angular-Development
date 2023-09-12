@@ -37,3 +37,5 @@ Angular -> ng serve (Compile our application + generate some bundle + inject tho
   bootstrap: [AppComponent]
 })
 
+9. Module - Module in Angular Application refers to a place where we can group the components, directives, pipes, services, core or third party modules which are related to the application.
+
