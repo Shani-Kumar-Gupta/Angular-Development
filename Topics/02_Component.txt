@@ -4,4 +4,11 @@
 - Angular is a component based JavaScript Frameword for building client-side applications.
 
 Component:
+- A component is a piece of user interface.
 - Component builds independent to each other.
+- Every Angular application has at least one component. - Root Component (App Component)
+
+Create A Component -
+- Create a TypeScript Class & Export it
+- Decorate the class with @Component decorator
+- Declare the class in main module file
