@@ -12,3 +12,8 @@ Create A Component -
 - Create a TypeScript Class & Export it
 - Decorate the class with @Component decorator
 - Declare the class in main module file
+
+Types of Component Selector:
+- HTML Tag - selector: 'app-header'
+- HTML Attribute - selector: '[app-header]'
+- CSS Class - selector: '.app-header'
