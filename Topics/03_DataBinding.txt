@@ -1,0 +1,24 @@
+What is Data Binding? (Important)
+- It's allow to communicate between a component class and corresponding view template & vice-versa.
+- Need to pass data from component class to view template.
+- Comminication from view templte to component class. 
+
+String Interpolation-
+{{}}
+
+Property Data Binding-
+[attribute]="variable"
+
+Event Data Binding-
+(eventName)="method()"
+
+Types of Data Binding-
+- One way data binding - Component to View or View to Component
+  {{}} - String interpolation
+  []="" - property binding
+  ()="" - event binding
+
+- Two way data binding - Both the direction
+  [ngModel] directive
+
+
