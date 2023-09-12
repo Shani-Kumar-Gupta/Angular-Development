@@ -15,10 +15,12 @@ Event Data Binding-
 Types of Data Binding-
 - One way data binding - Component to View or View to Component
   {{}} - String interpolation
-  []="" - property binding
+  []="" - property binding 
   ()="" - event binding
 
 - Two way data binding - Both the direction
   [ngModel] directive
+
+- We can't bind the attribute using property binding. We can bind only html property using property binding.
 
 
